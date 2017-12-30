@@ -609,7 +609,6 @@ text-align: right;
       </button>
       <a class="navbar-brand" href="https://itunes.apple.com/au/developer/wade-rossow/id769754891"  data-toggle="tooltip" data-placement="top" title="Check us out in the AppStore">
         <i class="icon-large icon-apple" style="font-size:50px;color:#ffffff;">
-        apple
         </i>
   </a>
   <a class="navbar-brand" href="https://play.google.com/store/apps/developer?id=WADEAWHILE"  data-toggle="tooltip" data-placement="top" title="Check us out in the Google Play">
