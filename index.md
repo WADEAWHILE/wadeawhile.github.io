@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
   <title>WADEAWHILE | Home</title>
   <meta charset="utf-8">
@@ -609,7 +609,6 @@ text-align: right;
       </button>
       <a class="navbar-brand" href="https://itunes.apple.com/au/developer/wade-rossow/id769754891"  data-toggle="tooltip" data-placement="top" title="Check us out in the AppStore">
                 <i class="icon-large icon-apple" style="font-size:50px;color:#ffffff;"></i>
-                </i>
             </a>
 <a class="navbar-brand" href="https://play.google.com/store/apps/developer?id=WADEAWHILE"  data-toggle="tooltip" data-placement="top" title="Check us out in the Google Play">
                 <i class="fa fa-android" aria-hidden="true" style="font-size:60px;color:#A4C639;"></i>
@@ -2183,16 +2182,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>Back to the Top</p>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
     <br/>
     <br/>
     
