@@ -1,6 +1,6 @@
 <html>
 <head>
-  <title>WADEAWHILE | Home</title>
+  <title>WADEAWHILE | Developer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -608,15 +608,19 @@ text-align: right;
         <span class="icon-bar"></span>                        
       </button>
       <a class="navbar-brand" href="https://itunes.apple.com/au/developer/wade-rossow/id769754891"  data-toggle="tooltip" data-placement="top" title="Check us out in the AppStore">
-                <i class="icon-large icon-apple" style="font-size:50px;color:#ffffff;"></i>
-            </a>
-<a class="navbar-brand" href="https://play.google.com/store/apps/developer?id=WADEAWHILE"  data-toggle="tooltip" data-placement="top" title="Check us out in the Google Play">
-                <i class="fa fa-android" aria-hidden="true" style="font-size:60px;color:#A4C639;"></i>
-</a>
-                <a class="navbar-brand" data-placement="top"><i style="font-size:14px;color:ffffff;">
-                Developer
-                </i>
-</a>
+        <i class="icon-large icon-apple" style="font-size:50px;color:#ffffff;">
+        apple
+        </i>
+  </a>
+  <a class="navbar-brand" href="https://play.google.com/store/apps/developer?id=WADEAWHILE"  data-toggle="tooltip" data-placement="top" title="Check us out in the Google Play">
+    <i class="fa fa-android" aria-hidden="true" style="font-size:60px;color:#A4C639;">
+    </i>
+  </a>
+  <a class="navbar-brand" data-placement="top">
+    <i style="font-size:14px;color:ffffff;">
+      Developer
+    </i>
+  </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
