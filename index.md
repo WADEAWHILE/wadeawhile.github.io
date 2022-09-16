@@ -2173,9 +2173,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
     </div>
     <div class="col-sm-5 slideanim">
         <br/>
-        <h5 style="color: #ffffff;"><a href="https://www.facebook.com/wadeawhile/" data-toggle="tooltip" data-placement="top" title="Facebook Page" style="text-decorations:none; color:inherit;">Check us out on <i class="icon-large icon-facebook" style="color: #ffffff; margin-right:2px"></i>acebook</a>.</h5>
+        <h5 style="color: #ffffff;"><a href="https://www.facebook.com/wadeawhile/" data-toggle="tooltip" data-placement="top" title="Facebook Page" style="text-decorations:none; color:inherit;"><i class="icon-large icon-facebook" style="color: #ffffff; margin-right:2px"></i></a>.</h5>
         <br/>
-        <h5 style="color: #ffffff;"><a href="mailto:wadeawhile@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" style="text-decorations:none; color:inherit;"><span class="glyphicon glyphicon-envelope" style="color: #ffffff; margin-right:2px"></span>Send us an email.</a></h5>
+        <h5 style="color: #ffffff;"><a href="mailto:wadeawhile@gmail.com" data-toggle="tooltip" data-placement="top" title="Email" style="text-decorations:none; color:inherit;"><span class="glyphicon glyphicon-envelope" style="color: #ffffff; margin-right:2px"></span></a></h5>
       </div>
     </div>
   </div>
