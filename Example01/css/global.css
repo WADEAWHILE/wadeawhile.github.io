@@ -61,6 +61,11 @@ a {
     gap: 20px 25px;
 }
 
+.logo img {
+    width: 3.125rem;
+    width: clamp(3.125rem, -0.625rem + 10vw, 6.25rem); /* min size:50px, max size:100px, min viewport:600px, max viewport:1100px */
+}
+
 .header__home {
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
@@ -105,7 +110,7 @@ a {
 /* MAIN */
 
 .wrapper {
-    width: clac(100% - 2rem); /* mobile default width (1rem = 16px) */
+    width: calc(100% - 2rem); /* mobile default width (1rem = 16px) */
     max-width: var(--container);
     margin-inline: auto; /* center */
 }
