@@ -18,7 +18,7 @@
     --lh-body: 1.56; /* 28px(desired line-height) / 18px(desired font-size) = 1.56(ratio). This allows the font-size to change and the ratio stay as expected */
 
     /* Width */
-    --container: 69.375rem; 
+    --container: 100rem; /* 1600px */
 
     --transition: 250ms ease-in-out;
 }
@@ -51,22 +51,25 @@ a {
 
 .header {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.header__nav {
-    display: flex;
+.headerNav {
+    display: inline-flex;
     flex-wrap: wrap;
+    align-items: flex-end; /* aligns to bottom line */
     justify-content: center;
     text-align: center;
     gap: 20px 25px;
+    width: 100%;
 }
 
-.logo img {
+#logo {
     width: 3.125rem;
-    width: clamp(3.125rem, -0.625rem + 10vw, 6.25rem); /* min size:50px, max size:100px, min viewport:600px, max viewport:1100px */
+    width: clamp(3.125rem, 3.1230456535334583rem + 3.1269543464665412vw, 6.25rem); /* min size:50px, max size:100px, min viewport:1px, max viewport:1600px */
 }
 
-.header__home {
+.headerHome {
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
     color: var(--white);
@@ -83,10 +86,8 @@ a {
 }
 
 .header a {
-    display: inline-block;
     color: var(--white);
     text-decoration: none;
-    font-size: var(--fs-24);
 }
 
 .header a:hover {
@@ -95,61 +96,126 @@ a {
     border-bottom: 1px solid var(--green);
 }
 
-#github__icon svg path:nth-of-type(2),
-#github__icon svg path:nth-of-type(3),
-#github__icon svg path:nth-of-type(4) {
-    transition: color var(--transition);
+.headerLinks {
+    margin-left: 0rem;
+    margin-left: clamp(0rem, -7.5rem + 20vw, 12.5rem); /* min size:0px, max size:200px, min viewport:600px, max viewport:1600px */
 }
 
-#github__icon svg:hover path:nth-of-type(2),
-#github__icon svg:hover path:nth-of-type(3),
-#github__icon svg:hover path:nth-of-type(4) {
-    fill: var(--green);
+.headerLinks ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /* aligns to bottom line */
+    justify-content: center;
+    text-align: center;
+    gap: 20px 25px;
+    font-size: var(--fs-18);
+    margin-bottom: 0.3rem;
 }
 
-/* MAIN */
-
-.wrapper {
-    width: calc(100% - 2rem); /* mobile default width (1rem = 16px) */
-    max-width: var(--container);
-    margin-inline: auto; /* center */
+.headerSocialLinks {
+    margin-bottom: 3rem;
 }
 
-.contact a {
+/*.headerLinks a {
     color: var(--white);
     text-decoration: none;
     border-bottom: 1px solid var(--green);
     font-size: var(--fs-24);
 }
 
-.contact a:hover {
+.headerLinks a:hover {
+    color: var(--green);
+    text-decoration: none;
+    border-bottom: 1px solid var(--green);
+}*/
+
+/*#githubIcon svg path:nth-of-type(2),
+#githubIcon svg path:nth-of-type(3),
+#githubIcon svg path:nth-of-type(4) {
+    transition: color var(--transition);
+}
+
+#githubIcon svg:hover path:nth-of-type(2),
+#githubIcon svg:hover path:nth-of-type(3),
+#githubIcon svg:hover path:nth-of-type(4) {
+    fill: var(--green);
+}*/
+
+
+
+/* MAIN */
+
+.main {
+    margin-top: 50px;
+}
+
+.wrapper {
+    width: calc(100% - 2rem); /* (1rem = 16px) */
+    max-width: var(--container);
+    margin-inline: auto; /* center */
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    background-color: var(--dark-grey);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+.footer ul {
+    text-align: center;
+    font-size: var(--fs-18);
+    list-style-type: none;
+    margin-bottom: 0.3rem;
+}
+
+.footerSocialLinks ul {
+    margin-top: 30px;
+}
+
+.footerSocialLinks ul li svg {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 1.5rem;
+    width: clamp(1.5rem, 1.4990619136960601rem + 1.5009380863039399vw, 3rem); /* min size:24px, max size:48px, min viewport:1px, max viewport:1600px */
+}
+
+.footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer a:hover {
     color: var(--green);
     text-decoration: none;
     border-bottom: 1px solid var(--green);
 }
 
-/* FOOTER */
-
-
-
 
 /* MEDIA QUERIES */
 
-/* Tablet */
-/* 600px = 37.7em */
-@media (min-width: 37.5em) {
+/* Mobile */
+/* 600px = 37.5em */
+@media only screen and (min-width: 1em) and (max-width: 37.5em ) {
     .wrapper {
         width: calc(100% - 3.75rem);
     }
-
-    .header__nav {
-        justify-content: flex-start;
-        text-align: left;
-        gap: 20px 25px;
-    }
     
-    .header__home {
+    .headerHome {
         flex: 1;
         margin-inline-end: auto;
+    }
+
+    /*.headerLinks {
+        margin-left: 0px;
+    }*/
+
+    .headerSocialLinks {
+        margin-bottom: 0rem;
     }
 }
