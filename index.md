@@ -626,7 +626,7 @@ text-align: right;
         <li><a href="#about" style="color: #ffffff;">ABOUT</a></li>
         <li><a href="#applications" style="color: #ffffff;">APPLICATIONS</a></li>
         <li><a href="#contact" style="color: #ffffff;">CONTACT</a></li>
-        <li><a href="/Test/index.html" style="color: #ffffff;">TEST</a></li>
+        <li><a href="/Example01/index.html" style="color: #ffffff;">Example01</a></li>
       </ul>
     </div>
   </div>
