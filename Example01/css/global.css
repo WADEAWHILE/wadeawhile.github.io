@@ -1,11 +1,12 @@
 :root {
     /* Color */
-    --black: #151515;
-    --dark-grey: #242424;
-    --grey: #D9D9D9;
-    --green: #4EE1A0;
-    --white: #ffffff;
-    --red: #FF6F5B;
+    --black: rgb(21, 21, 21);
+    --dark-grey: rgb(36, 36, 36);
+    --grey: rgb(217, 217, 217);
+    --green: rgb(78, 225, 160);
+    --green-hover: rgba(78, 225, 160, 0.1);
+    --white: rgb(255, 255, 255);
+    --red: rgb(255, 111, 91);
 
     /* Font */
     --fs-88: 5.5rem;
@@ -216,6 +217,12 @@ a {
     margin: 0.3rem;
     justify-content: center;
     text-align: center;
+}
+
+.photoBoard img:hover {
+    cursor: pointer;
+    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
 }
 
 
