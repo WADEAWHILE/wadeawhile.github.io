@@ -54,6 +54,12 @@ a {
     margin-bottom: 20px;
 }
 
+.wrapper {
+    width: calc(100% - 4rem); /* (1rem = 16px) */
+    max-width: var(--container);
+    margin-inline: auto; /* center */
+}
+
 .headerNav {
     display: inline-flex;
     flex-wrap: wrap;
@@ -142,6 +148,12 @@ a {
 }*/
 
 
+/* BANNER */
+.banner video {
+    width: calc(100vw - 1.1rem);
+    left: 0;
+}
+
 
 /* MAIN */
 
@@ -149,12 +161,9 @@ a {
     margin-top: 50px;
 }
 
-.wrapper {
-    width: calc(100% - 4rem); /* (1rem = 16px) */
-    max-width: var(--container);
-    margin-inline: auto; /* center */
+.columns2 {
+    background-color: var(--grey);
 }
-
 
 
 /* FOOTER */
