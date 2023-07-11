@@ -204,6 +204,20 @@ a {
     margin-bottom: 2rem;
 }
 
+.photoBoard {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.photoBoard img {
+    width: calc(30vw - 1rem);
+    margin: 0.3rem;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* FOOTER */
 
