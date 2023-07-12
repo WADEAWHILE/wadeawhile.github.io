@@ -207,15 +207,11 @@ a {
 }
 
 .mainHeader {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    align-items: flex-end; /* aligns to bottom line */
+    align-items: baseline; /* aligns to bottom line */
     justify-content: center;
     gap: 20px 25px;
-}
-
-.mainHeader h5 {
-    margin-bottom: 0.5rem;
 }
 
 .mainHeader h3 a {
