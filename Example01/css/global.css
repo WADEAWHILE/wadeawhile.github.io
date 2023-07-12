@@ -16,6 +16,7 @@
     --fs-32: 2rem;
     --fs-24: 1.5rem;
     --fs-18: 1.125rem; /* 18px(desired font-size) / 16px(defualt browser font-size) = 1.125rem */
+    --fs-12: 0.75rem;
     --lh-body: 1.56; /* 28px(desired line-height) / 18px(desired font-size) = 1.56(ratio). This allows the font-size to change and the ratio stay as expected */
 
     /* Width */
@@ -141,6 +142,65 @@ a {
 
 .headerSocialLinks {
     margin-bottom: 3rem;
+}
+
+.themeSelection {
+    width: 40px;
+    height: 30px;
+}
+
+.themeSelection label {
+    padding-top: 1.25rem;
+    font-size: var(--fs-12);
+}
+
+.switch {
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    width: 40px;
+}
+
+.switch input {
+    display:none;
+}
+
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 12px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 12px;
+}
+
+.themeSelection input:checked + .slider {
+    background-color: #66bb6a;
+}
+
+.themeSelection input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
 
 /*.headerLinks a {

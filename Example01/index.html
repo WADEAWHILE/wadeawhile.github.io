@@ -9,7 +9,8 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/dark.css" id="theme">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,6 +72,13 @@
                         </a>
                         </li>
                     </ul>
+                </div>
+                <div class="themeSelection">
+                    <label class="switch" for="themeToggle">
+                        Theme
+                      <input type="checkbox" title="themeToggle" id="themeToggle" />
+                      <div class="slider round"></div>
+                    </label>
                 </div>
             </nav>
         </div>
@@ -181,5 +189,18 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const themeToggle = document.getElementById('themeToggle');
+        const themeLink = document.getElementById('theme');
+    
+        themeToggle.addEventListener('change', function() {
+          if (this.checked) {
+            themeLink.href = 'css/light.css';
+          } else {
+            themeLink.href = 'css/dark.css';
+          }
+        });
+    </script>
 </body>
 </html>
