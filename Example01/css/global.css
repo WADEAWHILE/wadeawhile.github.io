@@ -39,8 +39,6 @@ html {
 body {
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
-    /*background-color: var(--black);
-    color: var(--white);*/
     font-size: var(--fs-18);
     line-height: var(--lh-body);
 }
@@ -100,7 +98,6 @@ a {
 .headerHome {
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
-    /*color: var(--white);*/
     flex: 1 0 100%;
 }
 
@@ -114,7 +111,6 @@ a {
 }
 
 .header a {
-    /*color: var(--white);*/
     text-decoration: none;
 }
 
