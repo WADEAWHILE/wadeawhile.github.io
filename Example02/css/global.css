@@ -199,43 +199,27 @@ a {
     border-radius: 50%;
 }
 
-/*.headerLinks a {
-    color: var(--white);
-    text-decoration: none;
-    border-bottom: 1px solid var(--green);
-    font-size: var(--fs-24);
-}
-
-.headerLinks a:hover {
-    color: var(--green);
-    text-decoration: none;
-    border-bottom: 1px solid var(--green);
-}*/
-
-/*#githubIcon svg path:nth-of-type(2),
-#githubIcon svg path:nth-of-type(3),
-#githubIcon svg path:nth-of-type(4) {
-    transition: color var(--transition);
-}
-
-#githubIcon svg:hover path:nth-of-type(2),
-#githubIcon svg:hover path:nth-of-type(3),
-#githubIcon svg:hover path:nth-of-type(4) {
-    fill: var(--green);
-}*/
-
-
-/* BANNER */
-.banner video {
-    width: 100%;
-    left: 0;
-}
-
 
 /* MAIN */
 
 .main {
     margin-top: 50px;
+}
+
+.mainHeader {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-end; /* aligns to bottom line */
+    justify-content: center;
+    gap: 20px 25px;
+}
+
+.mainHeader h5 {
+    margin-bottom: 0.5rem;
+}
+
+.mainHeader h3 a {
+    text-decoration: none;
 }
 
 .columns2 {
@@ -248,34 +232,17 @@ a {
     padding: 3rem;
 }
 
+#loginForm {
+    display: none;
+}
+
 .columns2Column2 {
     width: 50vw;
     padding: 3rem;
 }
 
-#photoBanner01 {
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-.photoBoard {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    justify-content: center;
-    text-align: center;
-}
-
-.photoBoard img {
-    width: calc(30vw - 1rem);
-    margin: 0.3rem;
-    justify-content: center;
-    text-align: center;
-}
-
-.photoBoard img:hover {
-    cursor: pointer;
-    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
-    filter: blur(2px);
+#signupForm {
+    display: none;
 }
 
 
