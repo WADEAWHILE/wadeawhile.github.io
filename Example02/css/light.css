@@ -1,0 +1,26 @@
+:root {
+    /* Color */
+    --black: rgb(21, 21, 21);
+    --dark-grey: rgb(36, 36, 36);
+    --grey: rgb(217, 217, 217);
+    --green: rgb(78, 225, 160);
+    --green-hover: rgba(78, 225, 160, 0.1);
+    --white: rgb(255, 255, 255);
+    --red: rgb(255, 111, 91);
+}
+
+body {
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+
+/* HEADER */
+
+.headerHome {
+    color: var(--black);
+}
+
+.header a {
+    color: var(--black);
+}
