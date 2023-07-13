@@ -209,6 +209,7 @@
     </footer>
 
     <script>
+        /* Toggle between Themes */
         const themeToggle = document.getElementById('themeToggle');
         const themeLink = document.getElementById('theme');
     
@@ -218,6 +219,24 @@
           } else {
             themeLink.href = 'css/dark.css';
           }
+        });
+
+        /* Toggle between login or signup forms on click on login or signup anchor */
+        const loginLink = document.getElementById("login");
+        const signupLink = document.getElementById("signup");
+        const loginForm = document.getElementById("loginForm");
+        const signupForm = document.getElementById("signupForm");
+
+        loginLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            loginForm.classList.add("visible");
+            signupForm.classList.remove("visible");
+        });
+
+        signupLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            signupForm.classList.add("visible");
+            loginForm.classList.remove("visible");
         });
     </script>
 </body>

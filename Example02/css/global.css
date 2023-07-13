@@ -228,17 +228,17 @@ a {
     padding: 3rem;
 }
 
-#loginForm {
-    display: none;
-}
-
 .columns2Column2 {
     width: 50vw;
     padding: 3rem;
 }
 
-#signupForm {
+#loginForm, #signupForm {
     display: none;
+}
+
+#loginForm.visible, #signupForm.visible {
+    display: block;
 }
 
 
