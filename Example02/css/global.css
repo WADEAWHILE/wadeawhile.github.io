@@ -233,12 +233,16 @@ a {
     padding: 3rem;
 }
 
+#loginForm input, #signupForm input {
+    margin-bottom: 1.5rem;
+}
+
 #loginForm, #signupForm {
     display: none;
 }
 
 #loginForm.visible, #signupForm.visible {
-    display: block;
+    display: grid;
 }
 
 
