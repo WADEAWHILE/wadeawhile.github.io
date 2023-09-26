@@ -1,0 +1,373 @@
+:root {
+    --white: rgb(243, 243, 243);
+    --black: rgb(0,0,0);
+
+    --transparent: rgba(0,0,0,0);
+
+    --grey: rgba(151, 151, 151, 0.1);
+
+    --red: rgb(255,0,0);
+    --green: rgb(0,255,0);
+    --blue: rgb(0,0,255);
+
+    --yellow: rgb(255, 255, 0);
+
+    /* Socials */
+    --facebook: rgb(59, 89, 152);
+    --instagram: rgb(172, 43, 172);
+    --linkedin: rgb(0, 130, 202);
+    --github: rgb(132, 44, 173);
+}
+
+@keyframes scrollBg {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-300px);
+    }
+}
+
+.fa-facebook-f {
+    color: var(--facebook) !important;
+}
+
+.fa-instagram {
+    color: var(--instagram) !important;
+}
+
+.fa-linkedin-in {
+    color: var(--linkedin) !important;
+}
+
+.fa-github {
+    color: var(--github) !important;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+}
+
+.site__notice {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--red);
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    padding-bottom: 1rem;
+    line-height: 1.3rem;
+}
+
+li {
+    padding-bottom: 1rem;
+    line-height: 1.3rem;
+}
+
+.center__align {
+    text-align: center;
+}
+
+.left__align {
+    text-align: left;
+}
+
+.bold__text {
+    font-weight: bold;
+}
+
+.italic__text {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.scroll-bg {
+    height: 100000vh;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 330px;
+    background-color: #E8BA9B;
+    background-image: url('/assets/images/global/Development_BG_1000x896.svg');
+    background-repeat: repeat;
+    background-size:auto;
+    animation: scrollBg 35s linear forwards;
+    opacity: 0.03;
+    z-index: -1;
+}
+
+.left__side__socials {
+    display: flex;
+}
+
+aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    top: 0;
+    background-color: var(--black);
+    width: 4vw;
+    height: 100%;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+aside a {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 3vw;
+    transform: rotate(-90deg);
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+}
+
+/*aside i:hover {
+    filter: grayscale(0%);
+}*/
+
+aside a:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header__nav__section {
+    display: block;
+    height: 100%;
+    width: 97vw;
+    margin-left: 3vw;
+}
+
+header {
+    display: flex;
+    background-color: var(--black);
+    height: 6.5vh;
+    padding-left: 2vw;
+}
+
+header img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+header img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: rotate(-5deg);
+}
+
+header h3 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+header nav {
+    margin-left: 2vw;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+header nav ul li a {
+    color: var(--white);
+    font-size: 0.8rem;
+    line-height: 0.1rem;
+}
+
+header nav ul li a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+#Company__Name {
+	font-family: 'Anton', sans-serif;
+	width: 100%;
+    height: 100%;
+}
+
+#Company__Name text {
+	/*text-transform: uppercase;*/
+	animation: stroke 5s;
+	stroke-width: 2;
+    fill: var(--white);
+	stroke: var(--white);
+	font-size: 14rem;
+}
+@keyframes stroke {
+	0%   {
+		fill: var(--transparent);
+        stroke: var(--white);
+		stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+	}
+	70%  {
+        fill: var(--transparent);
+        stroke: var(--white);
+    }
+	80%  {
+        fill: var(--transparent);
+        stroke: var(--white);
+        stroke-width: 3;
+    }
+	100% {
+		fill: var(--white);
+        stroke: var(--white);
+		stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+	}
+}
+
+section {
+    height: 94vh;
+    width: 84vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 2vh;
+    overflow: auto;
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+section::-webkit-scrollbar {
+    display: none;
+}
+
+.left__indent__small {
+    margin-left: 3rem;
+}
+
+.carousel .carousel-item {
+    transition-duration: 1.5s;
+}
+
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+    filter: grayscale(0) !important;
+    color: red !important;
+}
+
+/*.card-img-top {
+    aspect-ratio: 16/9; /* sets img ratio to 16:9 for all images based on width below */
+    /*width: 100%;
+}*/
+
+#image-gallery {
+    /*width: 600px; */
+    margin: 0 auto;
+}
+
+#current-image1 {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+#image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.thumb {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.thumb:hover {
+    filter: grayscale(0.7);
+    transform: scale(1.1);
+}
+
+.card-body p {
+    text-align: left;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.card-body ul {
+    text-align: left;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+@media only screen and (max-width: 900px){
+    aside {
+        width: 7vw;
+    }
+
+    .header__nav__section {
+        width: 94vw;
+        margin-left: 6vw;
+    }
+
+    header {
+        padding-left: 4vw;
+    }
+
+    #Company__Name text {
+        font-size: 10rem;
+    }
+
+    section {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .card-body p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .card-body ul {
+        margin-left: 2.5rem;
+        margin-right: 1rem;
+    }
+}
