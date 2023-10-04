@@ -1,0 +1,18 @@
+.container-lg.px-3.my-5.markdown-body {
+    width: 1920px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-lg.px-3.my-5.markdown-body h1, .container-lg.px-3.my-5.markdown-body p {
+    display: none !important;
+
+}
+
+section {
+    width: 96vw;
+}
+
+.markdown-body img {
+    max-width: none;
+}
