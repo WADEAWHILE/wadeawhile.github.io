@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <!-- Link global.css -->
     <link rel="stylesheet" href="css/global.css">
+    <!-- Link index.css -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="scroll-bg"></div>
