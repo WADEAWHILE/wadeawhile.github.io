@@ -292,19 +292,26 @@ section::-webkit-scrollbar {
     color: red !important;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    padding-top: 20rem !important;
+    bottom: auto !important;
+    align-items: normal !important;
+}
+
 /*.card-img-top {
     aspect-ratio: 16/9; /* sets img ratio to 16:9 for all images based on width below */
     /*width: 100%;
 }*/
 
 #image-gallery {
-    /*width: 600px; */
+    width: 70vw;
     margin: 0 auto;
+    padding-top: 1rem;
 }
 
 #current-image1 {
     aspect-ratio: 16/9;
-    width: 100%;
+    width: 80%;
 }
 
 #image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
@@ -359,6 +366,10 @@ section::-webkit-scrollbar {
     section {
         padding-left: 4vw;
         padding-right: 4vw;
+    }
+
+    #image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
+        display: block;
     }
 
     .card-body p {
