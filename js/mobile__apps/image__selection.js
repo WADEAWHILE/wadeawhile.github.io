@@ -22,7 +22,7 @@ var currentImage2 = document.getElementById("current-image2");
 var imageThumbs2 = document.getElementById("image-thumbs2");
 for (var i = 4; i <= 6; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/grab__n__go__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/grab__n__go/grab__n__go__0" + i + ".jpg";
     thumb.alt = "Image of Grab N Go 0" + i;
     thumb.classList.add("thumb");
     imageThumbs2.appendChild(thumb);
