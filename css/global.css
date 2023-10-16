@@ -309,7 +309,7 @@ section::-webkit-scrollbar {
     padding-top: 1rem;
 }
 
-#current-image1 {
+#current-image1, #current-image2, #current-image3, #current-image4, #current-image5, #current-image6, #current-image7 {
     aspect-ratio: 16/9;
     width: 80%;
 }

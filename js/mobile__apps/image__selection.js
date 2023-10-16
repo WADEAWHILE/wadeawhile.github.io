@@ -20,7 +20,7 @@ for (var i = 1; i <= 7; i++) {
 // Grab N Go
 var currentImage2 = document.getElementById("current-image2");
 var imageThumbs2 = document.getElementById("image-thumbs2");
-for (var i = 4; i <= 6; i++) {
+for (var i = 1; i <= 5; i++) {
     var thumb = document.createElement("img");
     thumb.src = "assets/images/mobile__apps/grab__n__go/grab__n__go__0" + i + ".jpg";
     thumb.alt = "Image of Grab N Go 0" + i;
@@ -37,9 +37,9 @@ for (var i = 4; i <= 6; i++) {
 // Pocket Pong
 var currentImage3 = document.getElementById("current-image3");
 var imageThumbs3 = document.getElementById("image-thumbs3");
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 5; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/pocket_pong__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/pocket__pong/pocket__pong__0" + i + ".jpg";
     thumb.alt = "Image of Pocket Pong 0" + i;
     thumb.classList.add("thumb");
     imageThumbs3.appendChild(thumb);
@@ -54,9 +54,9 @@ for (var i = 1; i <= 3; i++) {
 // Animal Catch
 var currentImage4 = document.getElementById("current-image4");
 var imageThumbs4 = document.getElementById("image-thumbs4");
-for (var i = 4; i <= 6; i++) {
+for (var i = 1; i <= 3; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/animal__catch__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/animal__catch/animal__catch__0" + i + ".jpg";
     thumb.alt = "Image of Animal Catch 0" + i;
     thumb.classList.add("thumb");
     imageThumbs4.appendChild(thumb);
@@ -73,7 +73,7 @@ var currentImage5 = document.getElementById("current-image5");
 var imageThumbs5 = document.getElementById("image-thumbs5");
 for (var i = 1; i <= 3; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/word__match__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/word__match/word__match__0" + i + ".jpg";
     thumb.alt = "Image of Word Match 0" + i;
     thumb.classList.add("thumb");
     imageThumbs5.appendChild(thumb);
@@ -88,9 +88,9 @@ for (var i = 1; i <= 3; i++) {
 // Construct-A-Word
 var currentImage6 = document.getElementById("current-image6");
 var imageThumbs6 = document.getElementById("image-thumbs6");
-for (var i = 4; i <= 6; i++) {
+for (var i = 1; i <= 6; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/construct__a__word__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/construct__a__word/construct__a__word__0" + i + ".jpg";
     thumb.alt = "Image of Construct-A-Word 0" + i;
     thumb.classList.add("thumb");
     imageThumbs6.appendChild(thumb);
@@ -105,9 +105,9 @@ for (var i = 4; i <= 6; i++) {
 // Temperature Conversion
 var currentImage7 = document.getElementById("current-image7");
 var imageThumbs7 = document.getElementById("image-thumbs7");
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 1; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/temperature__conversion__0" + i + ".jpg";
+    thumb.src = "assets/images/mobile__apps/temperature__conversion/temperature__conversion__0" + i + ".jpg";
     thumb.alt = "Image of Temperature Conversion 0" + i;
     thumb.classList.add("thumb");
     imageThumbs7.appendChild(thumb);
