@@ -312,6 +312,12 @@ section::-webkit-scrollbar {
 #current-image1, #current-image2, #current-image3, #current-image4, #current-image5, #current-image6, #current-image7 {
     aspect-ratio: 16/9;
     width: 80%;
+    transition: transform .5s ease-in-out;
+}
+
+#current-image1:hover, #current-image2:hover, #current-image3:hover, #current-image4:hover, #current-image5:hover, #current-image6:hover, #current-image7:hover {
+    transform: scale(1.2);
+    transition: transform .5s ease-in-out;
 }
 
 #image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
