@@ -20,9 +20,9 @@ for (var i = 1; i <= 3; i++) {
 // Ethical Mi
 var currentImage2 = document.getElementById("current-image2");
 var imageThumbs2 = document.getElementById("image-thumbs2");
-for (var i = 4; i <= 6; i++) {
+for (var i = 1; i <= 1; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/websites/ethical__mi/ethical__mi__0" + i + ".jpg";
+    thumb.src = "assets/images/websites/ethicalmi/ethicalmi__0" + i + ".jpg";
     thumb.alt = "Image of Ethical Mi 0" + i;
     thumb.classList.add("thumb");
     imageThumbs2.appendChild(thumb);
