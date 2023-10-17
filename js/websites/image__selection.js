@@ -5,7 +5,7 @@ var currentImage1 = document.getElementById("current-image1");
 var imageThumbs1 = document.getElementById("image-thumbs1");
 for (var i = 1; i <= 3; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/websites/natural__hearth__0" + i + ".jpg";
+    thumb.src = "assets/images/websites/natural__hearth/natural__hearth__0" + i + ".jpg";
     thumb.alt = "Image of Natural Hearth 0" + i;
     thumb.classList.add("thumb");
     imageThumbs1.appendChild(thumb);
@@ -22,7 +22,7 @@ var currentImage2 = document.getElementById("current-image2");
 var imageThumbs2 = document.getElementById("image-thumbs2");
 for (var i = 4; i <= 6; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/websites/ethical__mi__0" + i + ".jpg";
+    thumb.src = "assets/images/websites/ethical__mi/ethical__mi__0" + i + ".jpg";
     thumb.alt = "Image of Ethical Mi 0" + i;
     thumb.classList.add("thumb");
     imageThumbs2.appendChild(thumb);
