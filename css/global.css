@@ -287,12 +287,14 @@ section::-webkit-scrollbar {
     transition-duration: 1.5s;
 }
 
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+.carousel-dark .carousel-control-next-icon, 
+.carousel-dark .carousel-control-prev-icon {
     filter: grayscale(0) !important;
     color: red !important;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next, 
+.carousel-control-prev {
     padding-top: 20rem !important;
     bottom: auto !important;
     align-items: normal !important;
@@ -309,18 +311,40 @@ section::-webkit-scrollbar {
     padding-top: 1rem;
 }
 
-#current-image1, #current-image2, #current-image3, #current-image4, #current-image5, #current-image6, #current-image7 {
+#current-image1, 
+#current-image2, 
+#current-image3, 
+#current-image4, 
+#current-image5, 
+#current-image6, 
+#current-image7 {
     aspect-ratio: 16/9;
     width: 80%;
     transition: transform .5s ease-in-out;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
 }
 
-#current-image1:hover, #current-image2:hover, #current-image3:hover, #current-image4:hover, #current-image5:hover, #current-image6:hover, #current-image7:hover {
-    transform: scale(1.2);
+#current-image1:hover, 
+#current-image2:hover, 
+#current-image3:hover, 
+#current-image4:hover, 
+#current-image5:hover, 
+#current-image6:hover, 
+#current-image7:hover {
+    transform: scale(1.1);
     transition: transform .5s ease-in-out;
 }
 
-#image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
+#image-thumbs1, 
+#image-thumbs2, 
+#image-thumbs3, 
+#image-thumbs4, 
+#image-thumbs5, 
+#image-thumbs6, 
+#image-thumbs7, 
+#image-thumbs8 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -374,7 +398,14 @@ section::-webkit-scrollbar {
         padding-right: 4vw;
     }
 
-    #image-thumbs1, #image-thumbs2, #image-thumbs3, #image-thumbs4, #image-thumbs5, #image-thumbs6, #image-thumbs7, #image-thumbs8 {
+    #image-thumbs1, 
+    #image-thumbs2, 
+    #image-thumbs3, 
+    #image-thumbs4, 
+    #image-thumbs5, 
+    #image-thumbs6, 
+    #image-thumbs7, 
+    #image-thumbs8 {
         display: block;
     }
 
