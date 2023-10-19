@@ -87,7 +87,9 @@
                 </nav>
             </header>
             <section>
-                <div class="site__notice">[This site is still under construction but feel free to explore in the meantime and please check back in as more projects are added]</div>
+                !<-- <div class="site__notice">
+                        [This site is still under construction but feel free to explore in the meantime and please check back in as more projects are added]
+                    </div> -->
                 <h2>
                     Welcome to WADEAWHILE: Where Innovation Meets Imagination!
                 </h2>
@@ -104,9 +106,18 @@
                     Our Software Wonderland
                 </h4>
                 <p>
-                    Explore our diverse portfolio of software marvels, each one meticulously designed to cater to a wide range of tastes and needs. Whether you're a student, a gamer, a busy professional, or just someone looking for a good time, we've got something special for you:
+                    Explore our diverse portfolio of software marvels, each one meticulously designed to cater to a wide range of tastes and needs. Whether you're a student, a gamer, or a busy professional, we've got something special for you:
                 </p>
                 <div class="left__indent__small">
+                    <p>
+                        <h5>Website Development:</h5> Check out our some of our customer's websites, such as 'Natural Hearth' a company nurturing the connection between the home and the heart, by offering a diverse range of thoughtfully curated products that promote well-being, sustainability, and holistic living.
+                    </p>
+                    <p>
+                        <h5>Browser Applications:</h5> Explore our simple solutions to common problems like 'Attendance Tracker', which provide a flexible solution to track the attendance of attendees without the need for a list of attendees.
+                    </p>
+                    <p>
+                        <h5>Desktop Applications:</h5> An other option to use our simple solutions to common problems like 'Countdown Timer' providing a simple, clean layout displaying, event title, current day and date, current time and countdown time.
+                    </p>
                     <p>
                         <h5>Educational Gems:</h5> Dive into our educational apps, such as 'Construct-A-Word' and 'Word Match,' designed to make learning engaging and interactive. We believe that knowledge is best absorbed when it's wrapped in fun!
                     </p>
