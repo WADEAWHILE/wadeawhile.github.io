@@ -100,61 +100,61 @@
                     <h4>
                         Who Are We?
                     </h4>
-                    <p>
+                    <h6>
                         Founded on the principle that software should be a source of entertainment, learning, and delight, WADEAWHILE has been crafting digital experiences that leave a lasting impression. Our journey began with a simple idea: why settle for mundane applications when we can infuse them with excitement and wonder?
-                    </p>
+                    </h6>
                     <h4>
                         Our Software Wonderland
                     </h4>
-                    <p>
+                    <h6>
                         Explore our diverse portfolio of software marvels, each one meticulously designed to cater to a wide range of tastes and needs. Whether you're a student, a gamer, or a busy professional, we've got something special for you:
-                    </p>
+                    </h6>
                 </div>
                 <div class="left__indent__small">
-                    <p>
+                    <h6>
                         <h5>Website Development:</h5> Check out our some of our customer's websites, such as 'Natural Hearth' a company nurturing the connection between the home and the heart, by offering a diverse range of thoughtfully curated products that promote well-being, sustainability, and holistic living.
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>Browser Applications:</h5> Explore our simple solutions to common problems like 'Attendance Tracker', which provide a flexible solution to track the attendance of attendees without the need for a list of attendees.
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>Desktop Applications:</h5> An other option to use our simple solutions to common problems like 'Countdown Timer' providing a simple, clean layout displaying, event title, current day and date, current time and countdown time.
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>Educational Gems:</h5> Dive into our educational apps, such as 'Construct-A-Word' and 'Word Match,' designed to make learning engaging and interactive. We believe that knowledge is best absorbed when it's wrapped in fun!
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>AppleTV Adventures:</h5> Experience the thrill of 'Word Match' as it took a leap onto the AppleTV platform, becoming the first native AppleTV (TvOS) application developed by WADEAWHILE. The big screen has never been this entertaining!
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>Gaming Galore:</h5> Get your game on with 'Animal Catch,' an adrenaline-pumping adventure where you capture falling cats and dogs while dodging tricky hazards. It's not just a game; it's a wild, furry escapade!
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         <h5>Simplicity & Entertainment:</h5> No matter the app, our focus remains the same: simplicity and entertainment. We believe that the best apps should be easy to use and enjoyable to interact with.
-                    </p>
+                    </h6>
                 </div>
                 <div class="bottom__section">
                     <h4>
                         Join the Adventure
                     </h4>
-                    <p>
+                    <h6>
                         Our commitment to quality, creativity, and user satisfaction is at the heart of everything we do. We invite you to take a tour of our software wonderland. Click, tap, and explore the limitless possibilities that technology offers, all with a touch of WADEAWHILE magic.
-                    </p>
+                    </h6>
                     <h4>
                         Stay Connected
                     </h4>
-                    <p>
+                    <ph6>
                         Connect with us on our social platforms, where we share updates, insights, and maybe even a sneak peek or two into our upcoming projects. Your feedback and support mean the world to us, and we can't wait to share our digital journey with you.
-                    </p>
+                    </h6>
                     <h4>
                         The Adventure Begins Here
                     </h4>
-                    <p>
+                    <h6>
                         So, whether you're here for a solution, to learn, play, or simply be entertained, WADEAWHILE is your gateway to a world where innovation meets imagination. Buckle up, dear visitor, and embark on an unforgettable adventure through the digital universe we've created.
-                    </p>
-                    <p>
+                    </h6>
+                    <h6>
                         Thank you for joining us, and get ready to be amazed! The WADEAWHILE experience starts now.
-                    </p>
+                    </h6>
                 </div>
             </section>
         </div>
