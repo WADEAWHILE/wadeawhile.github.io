@@ -87,7 +87,7 @@
                 </nav>
             </header>
             <section>
-                !<-- <div class="site__notice">
+                <!-- <div class="site__notice">
                         [This site is still under construction but feel free to explore in the meantime and please check back in as more projects are added]
                     </div> -->
                 <h2>
