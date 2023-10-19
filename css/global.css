@@ -62,40 +62,33 @@ html, body {
     font-style: italic;
 }
 
-h1 {
-    font-size: 3rem;
-    padding-bottom: 1rem;
+.markdown-body h1, h1 {
+    font-size: 3rem !important;
+    padding-bottom: 1rem !important;
 }
 
-h2 {
-    font-size: 2.6rem;
-    padding-bottom: 1rem;
+.markdown-body h2, h2 {
+    font-size: 2.6rem !important;
+    padding-bottom: 1rem !important;
 }
 
-h3 {
-    font-size: 2.2rem;
-    padding-bottom: 1rem;
+.markdown-body h3, h3 {
+    font-size: 2.2rem !important;
+    padding-bottom: 1rem !important;
 }
 
-h4 {
-    font-size: 1.8rem;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
+.markdown-body h4, h4 {
+    font-size: 1.8rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 1rem !important;
 }
 
-h5 {
-    font-size: 1.4rem;
-    padding-bottom: 1rem;
+.markdown-body h5, h5 {
+    font-size: 1.4rem !important;
+    padding-bottom: 1rem !important;
 }
 
-h6, p {
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    line-height: 1.3rem;
-    color: var(--light-black) !important;
-}
-
-.markdown-body h6 {
+.markdown-body h6, h6, p {
     font-size: 1rem !important;
     padding-bottom: 1rem !important;
     line-height: 1.3rem !important;
