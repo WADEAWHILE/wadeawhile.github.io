@@ -88,7 +88,7 @@ html, body {
     padding-bottom: 1rem !important;
 }
 
-.markdown-body h6, h6, p {
+.markdown-body h6, h6, p, #text {
     font-size: 1rem !important;
     padding-bottom: 1rem !important;
     line-height: 1.3rem !important;
