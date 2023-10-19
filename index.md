@@ -94,9 +94,9 @@
                     <h2>
                         Welcome to WADEAWHILE: Where Innovation Meets Imagination!
                     </h2>
-                    <p>
+                    <h6>
                         At WADEAWHILE, we're on a mission to bring joy and creativity to the digital world. We're more than just a software company – we're a passionate team of dreamers, developers, and innovators who believe that technology should be both functional and fun.
-                    </p>
+                    </h6>
                     <h4>
                         Who Are We?
                     </h4>
