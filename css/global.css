@@ -363,6 +363,20 @@ section::-webkit-scrollbar {
     transform: scale(1.1);
 }
 
+.apple {
+    display: inline-flex;
+}
+
+.apple div {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.android div {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
 .card-body p {
     text-align: left;
     margin-left: 5rem;
