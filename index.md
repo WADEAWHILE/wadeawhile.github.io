@@ -128,7 +128,7 @@
                         <h5>Gaming Galore:</h5> Get your game on with 'Animal Catch,' an adrenaline-pumping adventure where you capture falling cats and dogs while dodging tricky hazards. It's not just a game; it's a wild, furry escapade!
                     </p>
                     <p>
-                        <h5>Simplicity & Entertainment:</h5> No matter the app, our focus remains the same: simplicity and entertainment. We believe that the best apps should be easy to use and enjoyable to interact with. Complexity? Not in our vocabulary.
+                        <h5>Simplicity & Entertainment:</h5> No matter the app, our focus remains the same: simplicity and entertainment. We believe that the best apps should be easy to use and enjoyable to interact with.
                     </p>
                 </div>
                 <h4>
@@ -147,7 +147,7 @@
                     The Adventure Begins Here
                 </h4>
                 <p>
-                    So, whether you're here to learn, play, or simply be entertained, WADEAWHILE is your gateway to a world where innovation meets imagination. Buckle up, dear visitor, and embark on an unforgettable adventure through the digital universe we've created.
+                    So, whether you're here for a solution, to learn, play, or simply be entertained, WADEAWHILE is your gateway to a world where innovation meets imagination. Buckle up, dear visitor, and embark on an unforgettable adventure through the digital universe we've created.
                 </p>
                 <p>
                     Thank you for joining us, and get ready to be amazed! The WADEAWHILE experience starts now.
