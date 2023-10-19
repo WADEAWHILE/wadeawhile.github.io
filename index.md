@@ -143,7 +143,7 @@
                     <h4>
                         Stay Connected
                     </h4>
-                    <ph6>
+                    <h6>
                         Connect with us on our social platforms, where we share updates, insights, and maybe even a sneak peek or two into our upcoming projects. Your feedback and support mean the world to us, and we can't wait to share our digital journey with you.
                     </h6>
                     <h4>
