@@ -87,7 +87,7 @@ h5 {
     padding-bottom: 1rem;
 }
 
-p {
+h6, p {
     padding-bottom: 1rem;
     line-height: 1.3rem;
 }
