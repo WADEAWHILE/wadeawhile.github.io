@@ -4,6 +4,7 @@
 
     --transparent: rgba(0,0,0,0);
 
+    --light-black: rgb(20, 20, 20);
     --grey: rgba(151, 151, 151, 0.1);
 
     --red: rgb(255,0,0);
@@ -91,13 +92,14 @@ h6, p {
     font-size: 1rem;
     padding-bottom: 1rem;
     line-height: 1.3rem;
+    color: var(--light-black) !important;
 }
 
 .markdown-body h6 {
     font-size: 1rem !important;
     padding-bottom: 1rem !important;
     line-height: 1.3rem !important;
-    color: var(--black) !important;
+    color: var(--light-black) !important;
 }
 
 li {
