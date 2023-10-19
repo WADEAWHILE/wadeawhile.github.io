@@ -13,10 +13,6 @@ section {
     width: 96vw;
 }
 
-section p {
-    display: block !important;
-}
-
 .markdown-body img {
     max-width: none;
 }

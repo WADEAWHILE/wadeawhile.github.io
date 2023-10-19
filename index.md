@@ -90,24 +90,26 @@
                 <!-- <div class="site__notice">
                         [This site is still under construction but feel free to explore in the meantime and please check back in as more projects are added]
                     </div> -->
-                <h2>
-                    Welcome to WADEAWHILE: Where Innovation Meets Imagination!
-                </h2>
-                <p>
-                    At WADEAWHILE, we're on a mission to bring joy and creativity to the digital world. We're more than just a software company – we're a passionate team of dreamers, developers, and innovators who believe that technology should be both functional and fun.
-                </p>
-                <h4>
-                    Who Are We?
-                </h4>
-                <p>
-                    Founded on the principle that software should be a source of entertainment, learning, and delight, WADEAWHILE has been crafting digital experiences that leave a lasting impression. Our journey began with a simple idea: why settle for mundane applications when we can infuse them with excitement and wonder?
-                </p>
-                <h4>
-                    Our Software Wonderland
-                </h4>
-                <p>
-                    Explore our diverse portfolio of software marvels, each one meticulously designed to cater to a wide range of tastes and needs. Whether you're a student, a gamer, or a busy professional, we've got something special for you:
-                </p>
+                <div class="top__section">
+                    <h2>
+                        Welcome to WADEAWHILE: Where Innovation Meets Imagination!
+                    </h2>
+                    <p>
+                        At WADEAWHILE, we're on a mission to bring joy and creativity to the digital world. We're more than just a software company – we're a passionate team of dreamers, developers, and innovators who believe that technology should be both functional and fun.
+                    </p>
+                    <h4>
+                        Who Are We?
+                    </h4>
+                    <p>
+                        Founded on the principle that software should be a source of entertainment, learning, and delight, WADEAWHILE has been crafting digital experiences that leave a lasting impression. Our journey began with a simple idea: why settle for mundane applications when we can infuse them with excitement and wonder?
+                    </p>
+                    <h4>
+                        Our Software Wonderland
+                    </h4>
+                    <p>
+                        Explore our diverse portfolio of software marvels, each one meticulously designed to cater to a wide range of tastes and needs. Whether you're a student, a gamer, or a busy professional, we've got something special for you:
+                    </p>
+                </div>
                 <div class="left__indent__small">
                     <p>
                         <h5>Website Development:</h5> Check out our some of our customer's websites, such as 'Natural Hearth' a company nurturing the connection between the home and the heart, by offering a diverse range of thoughtfully curated products that promote well-being, sustainability, and holistic living.
@@ -131,27 +133,29 @@
                         <h5>Simplicity & Entertainment:</h5> No matter the app, our focus remains the same: simplicity and entertainment. We believe that the best apps should be easy to use and enjoyable to interact with.
                     </p>
                 </div>
-                <h4>
-                    Join the Adventure
-                </h4>
-                <p>
-                    Our commitment to quality, creativity, and user satisfaction is at the heart of everything we do. We invite you to take a tour of our software wonderland. Click, tap, and explore the limitless possibilities that technology offers, all with a touch of WADEAWHILE magic.
-                </p>
-                <h4>
-                    Stay Connected
-                </h4>
-                <p>
-                    Connect with us on our social platforms, where we share updates, insights, and maybe even a sneak peek or two into our upcoming projects. Your feedback and support mean the world to us, and we can't wait to share our digital journey with you.
-                </p>
-                <h4>
-                    The Adventure Begins Here
-                </h4>
-                <p>
-                    So, whether you're here for a solution, to learn, play, or simply be entertained, WADEAWHILE is your gateway to a world where innovation meets imagination. Buckle up, dear visitor, and embark on an unforgettable adventure through the digital universe we've created.
-                </p>
-                <p>
-                    Thank you for joining us, and get ready to be amazed! The WADEAWHILE experience starts now.
-                </p>
+                <div class="bottom__section">
+                    <h4>
+                        Join the Adventure
+                    </h4>
+                    <p>
+                        Our commitment to quality, creativity, and user satisfaction is at the heart of everything we do. We invite you to take a tour of our software wonderland. Click, tap, and explore the limitless possibilities that technology offers, all with a touch of WADEAWHILE magic.
+                    </p>
+                    <h4>
+                        Stay Connected
+                    </h4>
+                    <p>
+                        Connect with us on our social platforms, where we share updates, insights, and maybe even a sneak peek or two into our upcoming projects. Your feedback and support mean the world to us, and we can't wait to share our digital journey with you.
+                    </p>
+                    <h4>
+                        The Adventure Begins Here
+                    </h4>
+                    <p>
+                        So, whether you're here for a solution, to learn, play, or simply be entertained, WADEAWHILE is your gateway to a world where innovation meets imagination. Buckle up, dear visitor, and embark on an unforgettable adventure through the digital universe we've created.
+                    </p>
+                    <p>
+                        Thank you for joining us, and get ready to be amazed! The WADEAWHILE experience starts now.
+                    </p>
+                </div>
             </section>
         </div>
     </div>
