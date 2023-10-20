@@ -398,32 +398,34 @@ section::-webkit-scrollbar {
 }
 
 .btn, .btn-primary{
-
-font-family: Roboto, sans-serif;
-font-weight: 0;
-font-size: 14px;
-color: #ededed;
-background-color: #202020;
-padding: 10px 30px;
-border: none;
-box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-border-radius: 10px;
-transition : 1000ms;
-transform: translateY(0);
-display: flex;
-flex-direction: row;
-align-items: center;
-cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: #ededed;
+    background-color: #202020;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 10px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn:hover, .btn-primary:hover{
-
-transition : 1000ms;
-padding: 10px 50px;
-transform : translateY(-0px);
-background-color: #0CC0DF;
-color: #ffffff;
-border: solid 1px #202020;
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #0CC0DF;
+    color: #ffffff;
+    border: solid 1px #202020;
 }
 
 @media only screen and (max-width: 900px){
