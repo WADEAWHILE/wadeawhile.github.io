@@ -82,13 +82,20 @@ for (var i = 1; i <= 2; i++) {
     );
 }
 
-/* // Word Match
+// WDesign
 var currentImage5 = document.getElementById("current-image5");
 var imageThumbs5 = document.getElementById("image-thumbs5");
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 2; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/word__match__0" + i + ".jpg";
-    thumb.alt = "Image of Word Match 0" + i;
+
+    if (i<2) {
+        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".jpg";
+        thumb.alt = "Image of WDesign 0" + i;
+    } else {
+        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".gif";
+        thumb.alt = "Video of WDesign 0" + i;
+    }
+
     thumb.classList.add("thumb");
     imageThumbs5.appendChild(thumb);
     thumb.addEventListener(
@@ -98,37 +105,3 @@ for (var i = 1; i <= 3; i++) {
         }
     );
 }
-
-// Construct-A-Word
-var currentImage6 = document.getElementById("current-image6");
-var imageThumbs6 = document.getElementById("image-thumbs6");
-for (var i = 4; i <= 6; i++) {
-    var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/construct__a__word__0" + i + ".jpg";
-    thumb.alt = "Image of Construct-A-Word 0" + i;
-    thumb.classList.add("thumb");
-    imageThumbs6.appendChild(thumb);
-    thumb.addEventListener(
-        "click", function() {
-            currentImage6.src = this.src;
-            currentImage6.alt = this.alt;
-        }
-    );
-}
-
-// Temperature Conversion
-var currentImage7 = document.getElementById("current-image7");
-var imageThumbs7 = document.getElementById("image-thumbs7");
-for (var i = 1; i <= 3; i++) {
-    var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/temperature__conversion__0" + i + ".jpg";
-    thumb.alt = "Image of Temperature Conversion 0" + i;
-    thumb.classList.add("thumb");
-    imageThumbs7.appendChild(thumb);
-    thumb.addEventListener(
-        "click", function() {
-            currentImage7.src = this.src;
-            currentImage7.alt = this.alt;
-        }
-    );
-}*/
