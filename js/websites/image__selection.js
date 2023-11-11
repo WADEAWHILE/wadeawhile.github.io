@@ -34,13 +34,20 @@ for (var i = 1; i <= 1; i++) {
     );
 }
 
-// Pocket Pong
-/*var currentImage3 = document.getElementById("current-image3");
+// Goat Real Estate
+var currentImage3 = document.getElementById("current-image3");
 var imageThumbs3 = document.getElementById("image-thumbs3");
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 2; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/pocket_pong__0" + i + ".jpg";
-    thumb.alt = "Image of Pocket Pong 0" + i;
+
+    if (i<2) {
+        thumb.src = "assets/images/websites/goat__real__estate/goat__real__estate__0" + i + ".jpg";
+        thumb.alt = "Image of Goat Real Estate 0" + i;
+    } else {
+        thumb.src = "assets/images/websites/goat__real__estate/goat__real__estate__0" + i + ".gif";
+        thumb.alt = "Video of Goat Real Estate 0" + i;
+    }
+
     thumb.classList.add("thumb");
     imageThumbs3.appendChild(thumb);
     thumb.addEventListener(
@@ -51,7 +58,7 @@ for (var i = 1; i <= 3; i++) {
     );
 }
 
-// Animal Catch
+/* // Animal Catch
 var currentImage4 = document.getElementById("current-image4");
 var imageThumbs4 = document.getElementById("image-thumbs4");
 for (var i = 4; i <= 6; i++) {
