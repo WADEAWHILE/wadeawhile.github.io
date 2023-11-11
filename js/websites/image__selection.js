@@ -58,13 +58,20 @@ for (var i = 1; i <= 2; i++) {
     );
 }
 
-/* // Animal Catch
+// Corporate Wear
 var currentImage4 = document.getElementById("current-image4");
 var imageThumbs4 = document.getElementById("image-thumbs4");
-for (var i = 4; i <= 6; i++) {
+for (var i = 1; i <= 2; i++) {
     var thumb = document.createElement("img");
-    thumb.src = "assets/images/mobile__apps/animal__catch__0" + i + ".jpg";
-    thumb.alt = "Image of Animal Catch 0" + i;
+
+    if (i<2) {
+        thumb.src = "assets/images/websites/corporate__wear/corporate__wear__0" + i + ".jpg";
+        thumb.alt = "Image of Corporate Wear 0" + i;
+    } else {
+        thumb.src = "assets/images/websites/corporate__wear/corporate__wear__0" + i + ".gif";
+        thumb.alt = "Video of Corporate Wear 0" + i;
+    }
+
     thumb.classList.add("thumb");
     imageThumbs4.appendChild(thumb);
     thumb.addEventListener(
@@ -75,7 +82,7 @@ for (var i = 4; i <= 6; i++) {
     );
 }
 
-// Word Match
+/* // Word Match
 var currentImage5 = document.getElementById("current-image5");
 var imageThumbs5 = document.getElementById("image-thumbs5");
 for (var i = 1; i <= 3; i++) {
