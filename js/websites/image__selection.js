@@ -41,10 +41,10 @@ for (var i = 1; i <= 2; i++) {
     var thumb = document.createElement("img");
 
     if (i<2) {
-        thumb.src = "assets/images/websites/goat__real__estate/goat__real__estate__0" + i + ".jpg";
+        thumb.src = "assets/images/websites/goat__real__estate/Goat__Real__Estate__0" + i + ".jpg";
         thumb.alt = "Image of Goat Real Estate 0" + i;
     } else {
-        thumb.src = "assets/images/websites/goat__real__estate/goat__real__estate__0" + i + ".gif";
+        thumb.src = "assets/images/websites/goat__real__estate/Goat__Real__Estate__0" + i + ".gif";
         thumb.alt = "Video of Goat Real Estate 0" + i;
     }
 
