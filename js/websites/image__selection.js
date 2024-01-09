@@ -92,7 +92,7 @@ for (var i = 1; i <= 2; i++) {
         thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".jpg";
         thumb.alt = "Image of WDesign 0" + i;
     } else {
-        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".gif";
+        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".mp4";
         thumb.alt = "Video of WDesign 0" + i;
     }
 
