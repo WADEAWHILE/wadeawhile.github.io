@@ -89,10 +89,10 @@ for (var i = 1; i <= 2; i++) {
     var thumb = document.createElement("img");
 
     if (i<2) {
-        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".jpg";
+        thumb.src = "assets/images/websites/wdesign/wdesign__0" + i + ".jpg";
         thumb.alt = "Image of WDesign 0" + i;
     } else {
-        thumb.src = "assets/images/websites/wdesign/WDesign__0" + i + ".gif";
+        thumb.src = "assets/images/websites/wdesign/wdesign__0" + i + ".gif";
         thumb.alt = "Video of WDesign 0" + i;
     }
 
