@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="oTReHN4-48T29NwDzjRT3jhwInOCAFyvF_NnwgoV4KY" />
     <title>Home</title>
 
     <!-- Font Awesome -->
@@ -26,6 +25,9 @@
     <link rel="stylesheet" href="css/global.css">
     <!-- Link index.css -->
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- Google Verification Meta Tag -->
+    <meta name="google-site-verification" content="oTReHN4-48T29NwDzjRT3jhwInOCAFyvF_NnwgoV4KY" />
 </head>
 <body>
     <div class="scroll-bg"></div>
