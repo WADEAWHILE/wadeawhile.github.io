@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="oTReHN4-48T29NwDzjRT3jhwInOCAFyvF_NnwgoV4KY" />
     <title>Home</title>
 
     <!-- Font Awesome -->
