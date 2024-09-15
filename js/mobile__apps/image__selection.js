@@ -71,7 +71,7 @@ for (var i = 1; i <= 3; i++) {
 // Word Match
 var currentImage5 = document.getElementById("current-image5");
 var imageThumbs5 = document.getElementById("image-thumbs5");
-for (var i = 1; i <= 3; i++) {
+for (var i = 1; i <= 8; i++) {
     var thumb = document.createElement("img");
     thumb.src = "assets/images/mobile__apps/word__match/word__match__0" + i + ".jpg";
     thumb.alt = "Image of Word Match 0" + i;
